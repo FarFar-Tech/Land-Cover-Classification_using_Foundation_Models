@@ -9,7 +9,7 @@ The data used in this project focuses on **Kerinci Regency**, located in **Jambi
 - Agricultural lands
 - Urban expansion zones
 
-Satellite data was clipped to a region of interest (ROI) covering parts of the **Kerinci Seblat National Park** and surrounding areas, known for its rich biodiversity and dynamic land cover changes. The images were exported from a Google Earth Engine (GEE) script (https://storage.googleapis.com/gee-ramiqcom-bucket).
+Satellite data were clipped to a region of interest (ROI) that covers parts of the **Kerinci Seblat National Park** and surrounding areas, known for its rich biodiversity and dynamic land-cover changes. The images were exported from a Google Earth Engine (GEE).
 
 <img width="723" height="688" alt="image" src="https://github.com/user-attachments/assets/f601fae4-5e5f-47a4-abe7-484fdd962c3e" />
 
