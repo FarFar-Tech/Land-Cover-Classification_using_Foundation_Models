@@ -82,3 +82,11 @@ This section describes the preprocessing steps used to prepare satellite imagery
 - Normalized inputs and labels.
 - Tools for both visual verification and further analysis.
 
+---
+
+### Guide to Scripts
+This repo consisted of two scripts:
+- `preprocess.ipynb` The purpose of this script is to generate the sample data on which to train the model. It will load Landsat imagery and raster land cover from cloud storage, then split them into multiple grids/patches of smaller images/maps for training the model. Then saved the the patch in the your local drive which can be loaded in modelling.ipynb script.
+
+- `modelling.ipynb` The purpose of this script is to generate and train the land cover model. It will load the patches from the preprocess.ipynb script, split it into train and test sets, used to fit the model, assess the model, and visualize the difference between the actual test result and its prediction, and saved the model (for later used maybe).
+
