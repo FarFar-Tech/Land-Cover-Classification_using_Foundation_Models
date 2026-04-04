@@ -98,6 +98,13 @@ DOFA was pre-trained on a massive, multimodal dataset consisting of approximatel
 
 DOFA utilizes **Self-Supervised Learning** to learn robust representations from unlabeled geospatial data. This eliminates the need for expensive manual labeling during the foundation stage.
 
+The pretrained DOFA model can be used via [TorchGeo](https://github.com/torchgeo/torchgeo) Library:
+```bash
+from torchgeo.models import DOFABase16_Weights, dofa_base_patch16_224
+# Use pre-trained model weights
+model = dofa_base_patch16_224(weights=DOFABase16_Weights.DOFA_MAE)
+```
+
 ## 🛠 Usage & Tasks
 
 The pre-trained DOFA weights can be fine-tuned for a wide variety of remote sensing applications, including:
