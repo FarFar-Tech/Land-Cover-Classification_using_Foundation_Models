@@ -1,5 +1,5 @@
 # Land-Cover-Classification using a Foundation Model (DOFA)
-This repo is about using DL-based models to predict the class of each pixel from multispectral satellite images. 
+This repo is about using Foundation models to predict the class of each pixel from multispectral satellite images. 
 
 ### 🌍 Study Area
 
