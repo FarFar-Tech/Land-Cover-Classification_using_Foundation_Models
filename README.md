@@ -116,7 +116,7 @@ The pre-trained DOFA weights can be fine-tuned for a wide variety of remote sens
 
 ### 🛠 Getting Started
 
-Follow these steps to set up a local development environment for DOFA. This setup uses `conda` to manage the complex geospatial dependencies and ensures compatibility between the CUDA toolkit and PyTorch. 
+Follow these steps to set up a local development environment for DOFA. This setup uses `conda` to manage the complex geospatial dependencies and ensures compatibility between the CUDA toolkit and PyTorch. This instructions allows you to use your laptop or desktop GPU for running the code.
 
 - **Environment Creation:**
 Create a dedicated Python 3.11 environment and activate it:
