@@ -14,7 +14,7 @@ Satellite data were clipped to a region of interest (ROI) that covers parts of t
 
 ## 📂 Data Sources
 
-This project uses satellite imagery and labeled land cover data to train a U-Net model for pixel-wise classification. The data is composed of:
+This project uses satellite imagery and labeled land cover data to re-train a remote sensing foundation model, called “DOFA”, for pixel-wise classification. The data is composed of:
 
 - **Land Cover Labels (Ground Truth)**  
   - File: `LC_Image_v1.tif`  
