@@ -10,7 +10,9 @@ The data used in this project focuses on **Kerinci Regency**, located in **Jambi
 - Urban expansion zones
 
 Satellite data were clipped to a region of interest (ROI) that covers parts of the **Kerinci Seblat National Park** and surrounding areas, known for its rich biodiversity and dynamic land-cover changes. The images were exported from a Google Earth Engine (GEE).
-<img width="700" height="600" alt="land cover classfication" src="images/1.png" />
+<p align="center">
+  <img width="500" height="500" alt="GeoAI Toolkit" src="images/1.png" />
+</p>
 
 ## 📂 Data Sources
 
@@ -20,7 +22,9 @@ This project uses satellite imagery and labeled land cover data to re-train a re
   - File: `LC_Image_v1.tif`  
   - Description: A raster image in which each pixel value represents a specific land cover class (e.g., forest, urban, water).  
   - The ground truth labels are displayed in the figure below.
-  <img width="1066" height="787" alt="land cover classfication" src="images/2.png" />
+  <p align="center">
+  <img width="600" height="500" alt="GeoAI Toolkit" src="images/2.png" />
+</p>
 
 - **Land Cover Metadata**  
   - File: `lc.json`  
