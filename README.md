@@ -44,7 +44,7 @@ This project uses satellite imagery and labeled land cover data to re-train a re
 
 ## 🧪 Preprocessing Pipeline
 
-This section describes the preprocessing steps used to prepare satellite imagery and land cover data for training a U-Net model for pixel-wise land cover classification.
+This section describes the preprocessing steps used to prepare satellite imagery and land cover data for the pixel-wise land cover classification task.
 
 ### 1. 🔹 Load and Normalize Land Cover Classes
 - Land cover metadata is read from `lc.json`, containing:
